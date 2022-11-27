@@ -7,7 +7,7 @@ const Home = () => {
 
     const fetchData = async () => {
         const data = await axios.get('https://matchday.ai/referee/champ/fixture/dummy-matches?page=0');
-        console.log(data)
+        // console.log(data)
     }
     fetchData();
     
